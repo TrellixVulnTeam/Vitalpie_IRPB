@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: url(/images/vitalpie1.jpg);
+  background-size: cover; }
+
+/* Seccion 1: Pagina de inicio */
+.container-index {
+  margin: 0; }
+  .container-index .col-index {
+    border: 1px solid black; }
+  .container-index .img-main {
+    width: 300px; }
+  .container-index .main-index {
+    padding: 10px 10px; }
