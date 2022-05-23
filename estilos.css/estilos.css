@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/images/vitalpie1.jpg);
+    background-size: cover;
+}
+
+.container-index {
+    margin: 0;   
+}
+
+.col-index {
+    border: 1px solid black;
+}
+
+.img-main {
+    width: 300px;
+}
+
+.main-index {
+    padding: 10px 10px;
+}
