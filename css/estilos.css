@@ -3,7 +3,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 body {
-  background-color: #1aa592; }
+  background-color: rgba(18, 85, 35, 0.664); }
 
 /* Seccion 1: Pagina de inicio */
 .container-index {
@@ -12,6 +12,8 @@ body {
   justify-content: center; }
   .container-index .navbar {
     border-bottom: 1px solid black; }
+  .container-index .dropdown-menu {
+    background-color: #1d856f; }
   .container-index .col-index {
     border: none; }
   .container-index .img-main {
@@ -25,6 +27,8 @@ body {
   .container-index .main-index {
     text-align: center;
     padding: 10px 10px; }
+  .container-index .texto-index {
+    color: white; }
   .container-index .img-aside {
     width: 100%;
     height: 100%; }
@@ -33,7 +37,10 @@ body {
     text-align: center;
     background-color: rgba(34, 139, 118, 0.747);
     height: 150px; }
+    .container-index .footer-index span {
+      color: white; }
     .container-index .footer-index ul {
+      color: white;
       list-style-type: none; }
     .container-index .footer-index .ubicacion-footer {
       padding: 10px; }
