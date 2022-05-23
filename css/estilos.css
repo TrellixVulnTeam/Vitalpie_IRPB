@@ -16,8 +16,6 @@ body {
     width: 30px; }
   .container-index .dropdown-menu {
     background-color: #1d856f; }
-  .container-index .col-index {
-    border: none; }
   .container-index .img-main {
     width: 450px; }
     @media screen and (max-width: 576px) {
@@ -35,6 +33,8 @@ body {
     width: 100%;
     height: 100%;
     padding: 25px 10px; }
+  .container-index .col-index2 {
+    display: inline-block; }
   .container-index .footer-index {
     padding: 10px;
     text-align: center;
@@ -58,12 +58,19 @@ body {
     .container-index .footer-index .whatsapp-footer img {
       width: 30px; }
     .container-index .footer-index .facebook-index {
-      padding: 10px;
-      text-align: center; }
+      padding: 10px; }
     .container-index .footer-index .instagram-index {
       padding: 10px;
       text-align: center; }
     .container-index .footer-index .facebook-index img {
-      width: 30px; }
+      width: 30px;
+      transition-property: width;
+      transition-duration: 0.5s; }
+    .container-index .footer-index .facebook-index img:hover {
+      width: 35px; }
     .container-index .footer-index .instagram-index img {
-      width: 30px; }
+      width: 30px;
+      transition-property: width;
+      transition-duration: 0.5s; }
+    .container-index .footer-index .instagram-index img:hover {
+      width: 35px; }
