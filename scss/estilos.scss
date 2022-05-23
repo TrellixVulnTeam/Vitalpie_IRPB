@@ -1,31 +1,67 @@
+$spacing: 10px;
+$ancho: 450px;
+$alto: 500px;
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: url(/images/vitalpie1.jpg);
-    background-size: cover;
+    background-color: rgb(72, 184, 146);
 }
 
 /* Seccion 1: Pagina de inicio */
 
 .container-index {
-    margin: 0;
+    padding: $spacing;
+    
+
     .col-index {
         border: 1px solid black;
     }
 
-    .main-index {
+   /* .main-index {
 
-    }
+    }*/
     
     .img-main {
-        width: 200px;
+        width: $ancho;
+
+        @media screen and (max-width: 576px) {
+            width: 300px;
+        }
+
+        @media screen and (max-width: 320px) {
+            width: 250px;
+        }
     }
 
     .main-index {
+        text-align: center;
+        margin: auto;
         padding: 10px 10px;
+    }
+
+    .img-aside {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-index {
+        height: 150px;
     }
 }
 
+.info-footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
 
+    img {
+        align-content: center;
+
+        width: $spacing*3;
+        margin-top: 0;
+    }
+}
