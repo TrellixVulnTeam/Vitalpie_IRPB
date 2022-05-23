@@ -1,7 +1,7 @@
 $spacing: 10px;
 $ancho: 450px;
 $alto: 500px;
-$color: rgba(29, 133, 111);
+$color: #23a387;
 $color2: white;
 
 * {
@@ -10,7 +10,7 @@ $color2: white;
 }
 
 body {
-    background-color: black;
+    background-color: $color;
 }
 
 /* Seccion 1: Pagina de inicio */
@@ -22,6 +22,10 @@ body {
 
     .navbar {
         border-bottom: 1px solid black;
+    }
+
+    .img-nav {
+        width: $spacing*3;
     }
 
     .dropdown-menu {
@@ -46,7 +50,7 @@ body {
 
     .main-index {
         text-align: center;
-        padding: 10px 10px;
+        padding: 25px
     }
 
     .texto-index {
@@ -56,6 +60,7 @@ body {
     .img-aside {
         width: 100%;
         height: 100%;
+        padding: 25px 10px;
     }
 
     .footer-index {
@@ -69,11 +74,13 @@ body {
         }
 
         ul {
+            outline: none;
             color: white;
             list-style-type: none;
         }
 
         .ubicacion-footer {
+            transition-delay: 0.5s;
             padding: $spacing;
         }
 
@@ -83,6 +90,10 @@ body {
 
         .ubicacion-footer img {
             width: 30px;
+        }
+
+        .ubicacion-footer img:hover {
+            font-size: 1.4em;
         }
 
         .whatsapp-footer img {

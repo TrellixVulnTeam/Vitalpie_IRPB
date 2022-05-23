@@ -3,7 +3,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 body {
-  background-color: rgba(18, 85, 35, 0.664); }
+  background-color: #23a387; }
 
 /* Seccion 1: Pagina de inicio */
 .container-index {
@@ -12,6 +12,8 @@ body {
   justify-content: center; }
   .container-index .navbar {
     border-bottom: 1px solid black; }
+  .container-index .img-nav {
+    width: 30px; }
   .container-index .dropdown-menu {
     background-color: #1d856f; }
   .container-index .col-index {
@@ -26,12 +28,13 @@ body {
         width: 250px; } }
   .container-index .main-index {
     text-align: center;
-    padding: 10px 10px; }
+    padding: 25px; }
   .container-index .texto-index {
     color: white; }
   .container-index .img-aside {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    padding: 25px 10px; }
   .container-index .footer-index {
     padding: 10px;
     text-align: center;
@@ -40,14 +43,18 @@ body {
     .container-index .footer-index span {
       color: white; }
     .container-index .footer-index ul {
+      outline: none;
       color: white;
       list-style-type: none; }
     .container-index .footer-index .ubicacion-footer {
+      transition-delay: 0.5s;
       padding: 10px; }
     .container-index .footer-index .whatsapp-footer {
       padding: 10px; }
     .container-index .footer-index .ubicacion-footer img {
       width: 30px; }
+    .container-index .footer-index .ubicacion-footer img:hover {
+      font-size: 1.4em; }
     .container-index .footer-index .whatsapp-footer img {
       width: 30px; }
     .container-index .footer-index .facebook-index {
