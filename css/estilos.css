@@ -1,17 +1,19 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 body {
-  background-color: #48b892; }
+  background-color: #1aa592; }
 
 /* Seccion 1: Pagina de inicio */
 .container-index {
-  padding: 10px;
-  /* .main-index {
-
-    }*/ }
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center; }
+  .container-index .navbar {
+    border-bottom: 1px solid black; }
   .container-index .col-index {
-    border: 1px solid black; }
+    border: none; }
   .container-index .img-main {
     width: 450px; }
     @media screen and (max-width: 576px) {
@@ -22,20 +24,32 @@ body {
         width: 250px; } }
   .container-index .main-index {
     text-align: center;
-    margin: auto;
     padding: 10px 10px; }
   .container-index .img-aside {
     width: 100%;
     height: 100%; }
   .container-index .footer-index {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(34, 139, 118, 0.747);
     height: 150px; }
-
-.info-footer {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-around; }
-  .info-footer img {
-    align-content: center;
-    width: 30px;
-    margin-top: 0; }
+    .container-index .footer-index ul {
+      list-style-type: none; }
+    .container-index .footer-index .ubicacion-footer {
+      padding: 10px; }
+    .container-index .footer-index .whatsapp-footer {
+      padding: 10px; }
+    .container-index .footer-index .ubicacion-footer img {
+      width: 30px; }
+    .container-index .footer-index .whatsapp-footer img {
+      width: 30px; }
+    .container-index .footer-index .facebook-index {
+      padding: 10px;
+      text-align: center; }
+    .container-index .footer-index .instagram-index {
+      padding: 10px;
+      text-align: center; }
+    .container-index .footer-index .facebook-index img {
+      width: 30px; }
+    .container-index .footer-index .instagram-index img {
+      width: 30px; }
