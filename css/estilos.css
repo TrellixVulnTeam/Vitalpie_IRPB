@@ -10,8 +10,11 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center; }
+  .container-index .navbar-toggler {
+    border-radius: 5px; }
   .container-index .navbar {
-    border-bottom: 1px solid black; }
+    border-bottom: 1px solid black;
+    box-shadow: #1e6959 5px 5px 5px; }
   .container-index .img-nav {
     width: 30px;
     margin-right: 20px; }
@@ -198,3 +201,5 @@ body {
 
 .imgform-turnos {
   width: 350px; }
+
+/* Seccion 3: Tratamientos */
