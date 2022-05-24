@@ -203,3 +203,36 @@ body {
   width: 350px; }
 
 /* Seccion 3: Tratamientos */
+.container-tratamientos {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center; }
+
+.navbar-brand img {
+  width: 30px;
+  margin-right: 20px; }
+
+.col-tratamientos {
+  border: 1px solid black;
+  width: 600px;
+  height: 500px;
+  margin: 50px; }
+
+.tratamientos-footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+  .tratamientos-footer .sociales {
+    text-align: center; }
+    .tratamientos-footer .sociales img {
+      float: left;
+      margin: 20px; }
+  .tratamientos-footer img {
+    width: 30px; }
+  .tratamientos-footer ul {
+    list-style-type: none; }
+  .tratamientos-footer a {
+    text-decoration: none;
+    color: black; }
