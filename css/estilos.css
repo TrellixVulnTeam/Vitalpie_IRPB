@@ -3,7 +3,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 body {
-  background-color: #23a387; }
+  background-color: #1ba083; }
 
 /* Seccion 1: Pagina de inicio */
 .container-index {
@@ -13,9 +13,10 @@ body {
   .container-index .navbar {
     border-bottom: 1px solid black; }
   .container-index .img-nav {
-    width: 30px; }
+    width: 30px;
+    margin-right: 20px; }
   .container-index .dropdown-menu {
-    background-color: #1d856f; }
+    background-color: #035e4a; }
   .container-index .img-main {
     width: 450px; }
     @media screen and (max-width: 576px) {
@@ -27,8 +28,6 @@ body {
   .container-index .main-index {
     text-align: center;
     padding: 25px; }
-  .container-index .texto-index {
-    color: white; }
   .container-index .aside-index {
     align-self: flex-end; }
   .container-index .img-aside {
@@ -46,20 +45,26 @@ body {
     align-items: center; }
   .container-index .footer-index {
     padding: 10px;
-    background-color: rgba(34, 139, 118, 0.747);
+    background-color: #16663abe;
     height: 150px;
     align-items: center; }
     .container-index .footer-index span {
-      color: white; }
+      color: #c2c2c2; }
     .container-index .footer-index ul {
       margin: 0;
       padding: 0;
       outline: none;
-      color: white;
+      color: #c2c2c2;
       list-style-type: none; }
     .container-index .footer-index .ubicacion-footer {
-      transition-delay: 0.5s;
       padding: 10px; }
+    .container-index .footer-index .ubicacion-footer a {
+      transition-property: font-size;
+      transition-duration: 0.5s;
+      color: #c2c2c2;
+      text-decoration: none; }
+    .container-index .footer-index .ubicacion-footer a:hover {
+      font-size: 18px; }
     .container-index .footer-index .whatsapp-footer {
       padding: 10px; }
     .container-index .footer-index .ubicacion-footer img {
@@ -67,7 +72,7 @@ body {
       transition-property: width;
       transition-duration: 0.5s; }
     .container-index .footer-index .ubicacion-footer img:hover {
-      width: 45px; }
+      width: 35px; }
     .container-index .footer-index .whatsapp-footer img {
       width: 30px; }
     .container-index .footer-index .sociales li {
@@ -88,9 +93,11 @@ body {
   background-color: #1d856f; }
 
 .header-turnos img {
-  width: 30px; }
+  width: 30px;
+  margin-right: 20px; }
 
 .container-turnos .form-turnos {
+  margin: auto;
   text-align: center; }
   .container-turnos .form-turnos button {
     color: #356355;
@@ -118,12 +125,22 @@ body {
   .container-turnos .form-turnos input:hover {
     background-color: #288368; }
 
+.container-turnos .container-form {
+  align-content: center;
+  width: 100%;
+  text-align: center; }
+  @media screen and (min-width: 320px) {
+    .container-turnos .container-form {
+      text-align: center;
+      max-width: 480px; } }
+
 .container-turnos .col-form {
-  align-self: center; }
+  align-self: center;
+  margin: 50px 0px; }
 
 .container-turnos .col-imgform {
   text-align: center;
-  border: 1px solid black; }
+  margin: 50px 0px; }
   .container-turnos .col-imgform img {
     text-align: center; }
 
@@ -141,19 +158,26 @@ body {
 
 .container-turnos .footer-index {
   padding: 10px;
-  background-color: rgba(34, 139, 118, 0.747);
+  background-color: #16663abe;
   height: 150px; }
   .container-turnos .footer-index span {
-    color: white; }
+    color: #859e9d; }
   .container-turnos .footer-index ul {
     margin: 0;
     padding: 0;
     outline: none;
-    color: white;
+    color: #859e9d;
     list-style-type: none; }
   .container-turnos .footer-index .ubicacion-footer {
     transition-delay: 0.5s;
     padding: 10px; }
+    .container-turnos .footer-index .ubicacion-footer a {
+      text-decoration: none;
+      color: #859e9d;
+      transition-property: font-size;
+      transition-duration: 0.5s; }
+    .container-turnos .footer-index .ubicacion-footer a:hover {
+      font-size: 18px; }
   .container-turnos .footer-index .whatsapp-footer {
     padding: 10px; }
   .container-turnos .footer-index .ubicacion-footer img {

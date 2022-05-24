@@ -1,7 +1,7 @@
 $spacing: 10px;
 $ancho: 450px;
 $alto: 500px;
-$color: #23a387;
+$color: #1ba083;
 $color2: white;
 
 * {
@@ -26,10 +26,11 @@ body {
 
     .img-nav {
         width: $spacing*3;
+        margin-right: 20px;
     }
 
     .dropdown-menu {
-        background-color: rgb(29, 133, 111);
+        background-color: rgb(3, 94, 74);
     }
 
     .img-main {
@@ -47,10 +48,6 @@ body {
     .main-index {
         text-align: center;
         padding: 25px
-    }
-
-    .texto-index {
-        color: $color2;
     }
 
     .aside-index {
@@ -78,25 +75,35 @@ body {
 
     .footer-index {
         padding: 10px;
-        background-color: rgba(34, 139, 118, 0.747);
+        background-color: #16663abe;
         height: 150px;
         align-items: center;
 
         span {
-            color: white;
+            color: #c2c2c2;
         }
 
         ul {
             margin: 0;
             padding: 0;
             outline: none;
-            color: white;
+            color: #c2c2c2;
             list-style-type: none;
         }
 
         .ubicacion-footer {
-            transition-delay: 0.5s;
             padding: $spacing;
+        }
+
+        .ubicacion-footer a {
+            transition-property: font-size;
+            transition-duration: 0.5s;
+            color: #c2c2c2;
+            text-decoration: none;
+        }
+
+        .ubicacion-footer a:hover {
+            font-size: 18px;
         }
 
         .whatsapp-footer {
@@ -110,7 +117,7 @@ body {
         }
 
         .ubicacion-footer img:hover {
-            width: 45px;
+            width: 35px;
         }
 
         .whatsapp-footer img {
@@ -150,12 +157,14 @@ body {
     
     img {
         width: $spacing*3;
+        margin-right: 20px;
     }
 }
 
 .container-turnos {
-    
     .form-turnos {
+
+        margin: auto;
         text-align: center;
 
         button {
@@ -191,15 +200,25 @@ body {
             background-color: rgb(40, 131, 104);
         }
     }
+
+    .container-form {
+        align-content: center;
+        width: 100%;
+        text-align: center;
+        @media screen and (min-width: 320px) {
+            text-align: center;
+           max-width: 480px;
+        }
+    }
     
     .col-form {
         align-self: center;
+        margin: 50px 0px;
     }
 
     .col-imgform {
         text-align: center;
-        border: 1px solid black;
-
+        margin: 50px 0px;    
         img {
             text-align: center;
         }
@@ -221,25 +240,35 @@ body {
 
     .footer-index {
         padding: 10px;
-
-        background-color: rgba(34, 139, 118, 0.747);
+        background-color: #16663abe;
         height: 150px;
 
         span {
-            color: white;
+            color: #859e9d;
         }
 
         ul {
             margin: 0;
             padding: 0;
             outline: none;
-            color: white;
+            color: #859e9d;
             list-style-type: none;
         }
 
         .ubicacion-footer {
             transition-delay: 0.5s;
             padding: $spacing;
+
+            a {
+                text-decoration: none;
+                color: #859e9d;
+                transition-property: font-size;
+                transition-duration: 0.5s;
+            }
+
+            a:hover {
+                font-size: 18px;
+            }
         }
 
         .whatsapp-footer {
