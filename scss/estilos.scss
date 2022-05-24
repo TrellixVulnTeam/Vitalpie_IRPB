@@ -57,8 +57,7 @@ body {
         align-self: flex-end;
     }
 
-    .img-aside {
-        
+    .img-aside {        
         width: 100%;
         padding: 25px 10px;
     }
@@ -135,4 +134,67 @@ body {
     }
 }
 
+/* Seccion 2: turnos online */
 
+.header-turnos {
+
+    .navbar {
+        border-bottom: 1px solid black;
+    }
+
+    .dropdown-menu {
+        background-color: rgb(29, 133, 111);
+    }
+    
+    img {
+        width: $spacing*3;
+    }
+}
+
+.container-turnos {
+    
+    .form-turnos {
+        text-align: center;
+
+        button {
+            color: rgb(53, 99, 85);
+            margin-top: 20px;
+            width: 100px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid rgb(53, 99, 85);
+            outline: none;
+            transition-property: all;
+            transition-duration: 0.5s;
+        }
+
+        button:hover {
+            color: #ccc;
+            background-color: rgb(20, 68, 54);
+        }
+
+        input {
+            color: rgb(53, 99, 85);
+            margin: 5px;
+            width: 150px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid rgb(53, 99, 85);
+            outline: none;
+        }
+    }
+    
+    .col-form {
+        align-self: center;
+    }
+
+    .col-imgform {
+        border: 1px solid black;
+    }
+
+    }
+
+
+.imgform-turnos {
+    width: 350px;
+}

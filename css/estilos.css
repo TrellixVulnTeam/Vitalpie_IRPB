@@ -75,3 +75,46 @@ body {
       transition-duration: 0.5s; }
     .container-index .footer-index .instagram-index img:hover {
       width: 35px; }
+
+/* Seccion 2: turnos online */
+.header-turnos .navbar {
+  border-bottom: 1px solid black; }
+
+.header-turnos .dropdown-menu {
+  background-color: #1d856f; }
+
+.header-turnos img {
+  width: 30px; }
+
+.container-turnos .form-turnos {
+  text-align: center; }
+  .container-turnos .form-turnos button {
+    color: #356355;
+    margin-top: 20px;
+    width: 100px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #356355;
+    outline: none;
+    transition-property: all;
+    transition-duration: 0.5s; }
+  .container-turnos .form-turnos button:hover {
+    color: #ccc;
+    background-color: #144436; }
+  .container-turnos .form-turnos input {
+    color: #356355;
+    margin: 5px;
+    width: 150px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #356355;
+    outline: none; }
+
+.container-turnos .col-form {
+  align-self: center; }
+
+.container-turnos .col-imgform {
+  border: 1px solid black; }
+
+.imgform-turnos {
+  width: 350px; }

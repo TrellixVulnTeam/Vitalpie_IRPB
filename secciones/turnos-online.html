@@ -10,7 +10,7 @@
     <title>Turnos online</title>
 </head>
 <body>
-    <header>
+    <header class="header-turnos">
       <nav class="navbar navbar-expand-lg navbar-light bg-none">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html">
@@ -46,19 +46,23 @@
       </nav>
     </header>
 
-    <div class="container">
+    <div class="container-turnos d-flex-colum">
       <div class="row">
-        <div class="col">
-          <!-- Formulario -->
+        <div class="col-md-6 col-form">
+          <form class="form-turnos">
+            <input type="text" value="Nombre">
+            <input type="text" value="Apellido">
+            <input type="tel" value="Telefono">
+            <input type="email" value="email">
+            <input type="datetime-local"><br>
+            <button type="submit">Enviar</button>
+          </form>
         </div>
-        <div class="col">
-          <!-- imagen email -->
+        <div class="col-md-6 col-imgform">
+          <img class="imgform-turnos" src="/images/foto.png/gmail.png" alt="La imagen no esta disponible">
         </div>
       </div>
       <div class="row">
-        <div class="col">
-
-        </div>
         <div class="col">
           Footer
         </div>
