@@ -29,9 +29,10 @@ body {
     padding: 25px; }
   .container-index .texto-index {
     color: white; }
+  .container-index .aside-index {
+    align-self: flex-end; }
   .container-index .img-aside {
     width: 100%;
-    height: 100%;
     padding: 25px 10px; }
   .container-index .col-index2 {
     display: inline-block; }
