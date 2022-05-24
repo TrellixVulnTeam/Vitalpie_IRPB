@@ -34,16 +34,26 @@ body {
   .container-index .img-aside {
     width: 100%;
     padding: 25px 10px; }
+  .container-index .col-index1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; }
   .container-index .col-index2 {
-    display: inline-block; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   .container-index .footer-index {
     padding: 10px;
-    text-align: center;
     background-color: rgba(34, 139, 118, 0.747);
-    height: 150px; }
+    height: 150px;
+    align-items: center; }
     .container-index .footer-index span {
       color: white; }
     .container-index .footer-index ul {
+      margin: 0;
+      padding: 0;
       outline: none;
       color: white;
       list-style-type: none; }
@@ -53,27 +63,21 @@ body {
     .container-index .footer-index .whatsapp-footer {
       padding: 10px; }
     .container-index .footer-index .ubicacion-footer img {
-      width: 30px; }
+      width: 30px;
+      transition-property: width;
+      transition-duration: 0.5s; }
     .container-index .footer-index .ubicacion-footer img:hover {
-      font-size: 1.4em; }
+      width: 45px; }
     .container-index .footer-index .whatsapp-footer img {
       width: 30px; }
-    .container-index .footer-index .facebook-index {
-      padding: 10px; }
-    .container-index .footer-index .instagram-index {
-      padding: 10px;
-      text-align: center; }
-    .container-index .footer-index .facebook-index img {
-      width: 30px;
+    .container-index .footer-index .sociales li {
+      margin: 10px;
+      float: left; }
+    .container-index .footer-index .sociales img {
       transition-property: width;
-      transition-duration: 0.5s; }
-    .container-index .footer-index .facebook-index img:hover {
-      width: 35px; }
-    .container-index .footer-index .instagram-index img {
-      width: 30px;
-      transition-property: width;
-      transition-duration: 0.5s; }
-    .container-index .footer-index .instagram-index img:hover {
+      transition-duration: 0.5s;
+      width: 30px; }
+    .container-index .footer-index .sociales img:hover {
       width: 35px; }
 
 /* Seccion 2: turnos online */
@@ -91,7 +95,7 @@ body {
   .container-turnos .form-turnos button {
     color: #356355;
     margin-top: 20px;
-    width: 100px;
+    width: 140px;
     background: none;
     border: none;
     border-bottom: 1px solid #356355;
@@ -108,13 +112,65 @@ body {
     background: none;
     border: none;
     border-bottom: 1px solid #356355;
-    outline: none; }
+    outline: none;
+    transition-property: all;
+    transition-duration: 0.5s; }
+  .container-turnos .form-turnos input:hover {
+    background-color: #288368; }
 
 .container-turnos .col-form {
   align-self: center; }
 
 .container-turnos .col-imgform {
+  text-align: center;
   border: 1px solid black; }
+  .container-turnos .col-imgform img {
+    text-align: center; }
+
+.container-turnos .col-index1 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center; }
+
+.container-turnos .col-index2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.container-turnos .footer-index {
+  padding: 10px;
+  background-color: rgba(34, 139, 118, 0.747);
+  height: 150px; }
+  .container-turnos .footer-index span {
+    color: white; }
+  .container-turnos .footer-index ul {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: white;
+    list-style-type: none; }
+  .container-turnos .footer-index .ubicacion-footer {
+    transition-delay: 0.5s;
+    padding: 10px; }
+  .container-turnos .footer-index .whatsapp-footer {
+    padding: 10px; }
+  .container-turnos .footer-index .ubicacion-footer img {
+    width: 30px; }
+  .container-turnos .footer-index .ubicacion-footer img:hover {
+    font-size: 1.4em; }
+  .container-turnos .footer-index .whatsapp-footer img {
+    width: 30px; }
+  .container-turnos .footer-index .sociales li {
+    margin: 10px;
+    float: left; }
+  .container-turnos .footer-index .sociales img {
+    transition-property: width;
+    transition-duration: 0.5s;
+    width: 30px; }
+  .container-turnos .footer-index .sociales img:hover {
+    width: 35px; }
 
 .imgform-turnos {
   width: 350px; }
