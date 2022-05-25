@@ -2,7 +2,8 @@ $spacing: 10px;
 $ancho: 450px;
 $alto: 500px;
 $color: #1ba083;
-$color2: white;
+$color2: #c2c2c2;
+$navcolor: #1e6959;
 
 * {
     box-sizing: border-box;
@@ -26,8 +27,6 @@ body {
         border-radius: 5px;
     }
 
-    
-
     .navbar {
         background: #1e6959;
     }
@@ -46,7 +45,7 @@ body {
     }
 
     .dropdown-menu {
-        background-color: rgb(3, 94, 74);
+        background-color: #035e4a;
 
         img {
             width: 20px;
@@ -109,14 +108,14 @@ body {
         align-items: center;
 
         span {
-            color: #c2c2c2;
+            color: #859e9d;
         }
 
         ul {
             margin: 0;
             padding: 0;
             outline: none;
-            color: #c2c2c2;
+            color: #859e9d;
             list-style-type: none;
         }
 
@@ -127,7 +126,7 @@ body {
         .ubicacion-footer a {
             transition-property: font-size;
             transition-duration: 0.5s;
-            color: #c2c2c2;
+            color: #859e9d;
             text-decoration: none;
         }
 
@@ -178,72 +177,69 @@ body {
 
 .header-turnos {
 
-    .navbar {
-        border-bottom: 1px solid black;
+    .navbar {        
+        background: $navcolor;
     }
 
     .dropdown-menu {
-        background-color: rgb(29, 133, 111);
+        background-color: #035e4a;
     }
     
     img {
-        width: $spacing*3;
-        margin-right: 20px;
+        width: $spacing*2;
+        margin-right: 10px;
+        border-radius: 100px;
     }
 }
 
 .container-turnos {
 
-    .form-turnos {
-
-        margin: auto;
-        text-align: center;
-
-        button {
-            color: rgb(53, 99, 85);
-            margin-top: 20px;
-            width: 140px;
-            background: none;
-            border: none;
-            border-bottom: 1px solid rgb(53, 99, 85);
-            outline: none;
-            transition-property: all;
-            transition-duration: 0.5s;
-        }
-
-        button:hover {
-            color: #ccc;
-            background-color: rgb(20, 68, 54);
-        }
-
-        input {
-            color: rgb(53, 99, 85);
-            margin: 5px;
-            width: 100%;
-            background: none;
-            border: none;
-            border-bottom: 1px solid rgb(53, 99, 85);
-            outline: none;
-            transition-property: all;
-            transition-duration: 0.5s;
-        }
-
-        input:hover {
-            background-color: rgb(40, 131, 104);
-        }
-    }
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
     .col-form {
-        align-self: center;
-        
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: rgb(226, 221, 221);
+    }
+
+    .form-turnos {
+        min-width: 400px;
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+
+        input {
+            width: 100%;
+            padding: 6px;
+            margin: 6px;
+            border: none;
+            border-bottom: 3px solid #035e4a;
+            background: transparent;
+            outline: none;
+        }
     }
 
     .col-imgform {
-        text-align: center;
+        flex: 1;
+        padding: 10px;
+        display: flex;
+        
         img {
-            width: 350px;
+            width: 200px;
+            margin: auto;
+            border-radius: 50%;
+            background-color: #fff;
+            padding: 20px;
         }
     }
+
+}
+
+.containerturnos-footer {
 
     .col-index1 {
         display: flex;
@@ -261,7 +257,7 @@ body {
 
     .footer-index {
         padding: 10px;
-        background-color: #16663abe;
+        background-color: #035e4a;
         height: 150px;
 
         span {
@@ -298,6 +294,7 @@ body {
 
         .ubicacion-footer img {
             width: 30px;
+            border-radius: 100px;
         }
 
         .ubicacion-footer img:hover {
@@ -305,7 +302,8 @@ body {
         }
 
         .whatsapp-footer img {
-            width: 30px;
+            width: 25px;
+            border-radius: 100px;
         }
 
         .sociales {
@@ -318,6 +316,7 @@ body {
                 transition-property: width;
                 transition-duration: 0.5s;
                 width: 30px;
+                border-radius: 100px;
             }
 
             img:hover {

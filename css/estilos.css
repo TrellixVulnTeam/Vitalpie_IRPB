@@ -64,19 +64,19 @@ body {
     height: 150px;
     align-items: center; }
     .container-index .footer-index span {
-      color: #c2c2c2; }
+      color: #859e9d; }
     .container-index .footer-index ul {
       margin: 0;
       padding: 0;
       outline: none;
-      color: #c2c2c2;
+      color: #859e9d;
       list-style-type: none; }
     .container-index .footer-index .ubicacion-footer {
       padding: 10px; }
     .container-index .footer-index .ubicacion-footer a {
       transition-property: font-size;
       transition-duration: 0.5s;
-      color: #c2c2c2;
+      color: #859e9d;
       text-decoration: none; }
     .container-index .footer-index .ubicacion-footer a:hover {
       font-size: 18px; }
@@ -104,102 +104,103 @@ body {
 
 /* Seccion 2: turnos online */
 .header-turnos .navbar {
-  border-bottom: 1px solid black; }
+  background: #1e6959; }
 
 .header-turnos .dropdown-menu {
-  background-color: #1d856f; }
+  background-color: #035e4a; }
 
 .header-turnos img {
-  width: 30px;
-  margin-right: 20px; }
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 100px; }
 
-.container-turnos .form-turnos {
-  margin: auto;
+.container-turnos {
+  display: flex;
+  flex-direction: column;
   text-align: center; }
-  .container-turnos .form-turnos button {
-    color: #356355;
-    margin-top: 20px;
-    width: 140px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #356355;
-    outline: none;
-    transition-property: all;
-    transition-duration: 0.5s; }
-  .container-turnos .form-turnos button:hover {
-    color: #ccc;
-    background-color: #144436; }
-  .container-turnos .form-turnos input {
-    color: #356355;
-    margin: 5px;
-    width: 100%;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #356355;
-    outline: none;
-    transition-property: all;
-    transition-duration: 0.5s; }
-  .container-turnos .form-turnos input:hover {
-    background-color: #288368; }
+  .container-turnos .col-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #e2dddd; }
+  .container-turnos .form-turnos {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 20px; }
+    .container-turnos .form-turnos input {
+      width: 100%;
+      padding: 6px;
+      margin: 6px;
+      border: none;
+      border-bottom: 3px solid #035e4a;
+      background: transparent;
+      outline: none; }
+  .container-turnos .col-imgform {
+    flex: 1;
+    padding: 10px;
+    display: flex; }
+    .container-turnos .col-imgform img {
+      width: 200px;
+      margin: auto;
+      border-radius: 50%;
+      background-color: #fff;
+      padding: 20px; }
 
-.container-turnos .col-form {
-  align-self: center; }
-
-.container-turnos .col-imgform {
-  text-align: center; }
-  .container-turnos .col-imgform img {
-    width: 350px; }
-
-.container-turnos .col-index1 {
+.containerturnos-footer .col-index1 {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center; }
 
-.container-turnos .col-index2 {
+.containerturnos-footer .col-index2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
-.container-turnos .footer-index {
+.containerturnos-footer .footer-index {
   padding: 10px;
-  background-color: #16663abe;
+  background-color: #035e4a;
   height: 150px; }
-  .container-turnos .footer-index span {
+  .containerturnos-footer .footer-index span {
     color: #859e9d; }
-  .container-turnos .footer-index ul {
+  .containerturnos-footer .footer-index ul {
     margin: 0;
     padding: 0;
     outline: none;
     color: #859e9d;
     list-style-type: none; }
-  .container-turnos .footer-index .ubicacion-footer {
+  .containerturnos-footer .footer-index .ubicacion-footer {
     transition-delay: 0.5s;
     padding: 10px; }
-    .container-turnos .footer-index .ubicacion-footer a {
+    .containerturnos-footer .footer-index .ubicacion-footer a {
       text-decoration: none;
       color: #859e9d;
       transition-property: font-size;
       transition-duration: 0.5s; }
-    .container-turnos .footer-index .ubicacion-footer a:hover {
+    .containerturnos-footer .footer-index .ubicacion-footer a:hover {
       font-size: 18px; }
-  .container-turnos .footer-index .whatsapp-footer {
+  .containerturnos-footer .footer-index .whatsapp-footer {
     padding: 10px; }
-  .container-turnos .footer-index .ubicacion-footer img {
-    width: 30px; }
-  .container-turnos .footer-index .ubicacion-footer img:hover {
+  .containerturnos-footer .footer-index .ubicacion-footer img {
+    width: 30px;
+    border-radius: 100px; }
+  .containerturnos-footer .footer-index .ubicacion-footer img:hover {
     font-size: 1.4em; }
-  .container-turnos .footer-index .whatsapp-footer img {
-    width: 30px; }
-  .container-turnos .footer-index .sociales li {
+  .containerturnos-footer .footer-index .whatsapp-footer img {
+    width: 25px;
+    border-radius: 100px; }
+  .containerturnos-footer .footer-index .sociales li {
     margin: 10px;
     float: left; }
-  .container-turnos .footer-index .sociales img {
+  .containerturnos-footer .footer-index .sociales img {
     transition-property: width;
     transition-duration: 0.5s;
-    width: 30px; }
-  .container-turnos .footer-index .sociales img:hover {
+    width: 30px;
+    border-radius: 100px; }
+  .containerturnos-footer .footer-index .sociales img:hover {
     width: 35px; }
 
 /* Seccion 3: Tratamientos */
