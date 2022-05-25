@@ -209,12 +209,12 @@ body {
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
-        background: rgb(203, 212, 208);
+        background: #c2c2c2;
         margin: auto;
+        min-width: 250px;
     }
 
     .form-turnos {
-        border: 1px solid black;
         min-width: 400px;
         flex: 1;
         text-align: center;
@@ -226,8 +226,8 @@ body {
             padding: 5;
             margin: 10px 0;
             border: none;
-            border-bottom: 2px solid #035e4a;
-            background: transparent;
+            background: none;
+            border-bottom: 2px solid #035e4a;            
             color: #859e9d;
         }
 
@@ -252,9 +252,8 @@ body {
         img {
             width: 200px;
             margin: 40px;
-            border-radius: 50%;
-            background-color: #fff;
-            padding: 20px;
+            border-radius: 100px;
+            background-color: #c2c2c2;
         }
     }
 
