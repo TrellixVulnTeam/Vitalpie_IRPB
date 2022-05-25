@@ -125,7 +125,7 @@ body {
       align-items: center;
       flex-wrap: wrap;
       justify-content: center;
-      background: #667c6c;
+      background: #cbd4d0;
       margin: auto; }
     .container-general-turnos .container-turnos .form-turnos {
       border: 1px solid black;
@@ -139,16 +139,18 @@ body {
         padding: 5;
         margin: 10px 0;
         border: none;
-        border-bottom: #035e4a;
-        background: transparent; }
+        border-bottom: 2px solid #035e4a;
+        background: transparent;
+        color: #859e9d; }
       .container-general-turnos .container-turnos .form-turnos input {
         min-width: 200px;
         padding: 6px;
         margin: 6px;
         border: none;
-        border-bottom: 3px solid #035e4a;
+        border-bottom: 2px solid #035e4a;
         background: transparent;
-        outline: none; }
+        outline: none;
+        color: #859e9d; }
     .container-general-turnos .container-turnos .col-imgform {
       flex: 1;
       padding: 10px;

@@ -209,7 +209,7 @@ body {
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
-        background: rgb(102, 124, 108);
+        background: rgb(203, 212, 208);
         margin: auto;
     }
 
@@ -226,8 +226,9 @@ body {
             padding: 5;
             margin: 10px 0;
             border: none;
-            border-bottom: #035e4a;
+            border-bottom: 2px solid #035e4a;
             background: transparent;
+            color: #859e9d;
         }
 
         input {
@@ -235,9 +236,10 @@ body {
             padding: 6px;
             margin: 6px;
             border: none;
-            border-bottom: 3px solid #035e4a;
+            border-bottom: 2px solid #035e4a;
             background: transparent;
             outline: none;
+            color: #859e9d;
         }
     }
 
