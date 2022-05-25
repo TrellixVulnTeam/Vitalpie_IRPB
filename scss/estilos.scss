@@ -175,45 +175,63 @@ body {
 
 /* Seccion 2: turnos online */
 
-.header-turnos {
 
-    .navbar {        
-        background: $navcolor;
-    }
-
-    .dropdown-menu {
-        background-color: #035e4a;
-    }
+.container-general-turnos {
+    display: flex;
+    flex-flow: column wrap;
+ 
     
-    img {
-        width: $spacing*2;
-        margin-right: 10px;
-        border-radius: 100px;
+    .header-turnos {
+    
+        .navbar {        
+            background: $navcolor;
+        }
+    
+        .dropdown-menu {
+            background-color: #035e4a;
+        }
+        
+        img {
+            width: $spacing*2;
+            margin-right: 10px;
+            border-radius: 100px;
+        }
     }
-}
-
 .container-turnos {
 
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 
     .col-form {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
-        background: rgb(226, 221, 221);
+        background: rgb(102, 124, 108);
+        margin: auto;
     }
 
     .form-turnos {
+        border: 1px solid black;
         min-width: 400px;
         flex: 1;
         text-align: center;
         padding: 20px;
+        margin: 20px;
+
+        button {
+            width: 150px;
+            padding: 5;
+            margin: 10px 0;
+            border: none;
+            border-bottom: #035e4a;
+            background: transparent;
+        }
 
         input {
-            width: 100%;
+            min-width: 200px;
             padding: 6px;
             margin: 6px;
             border: none;
@@ -227,10 +245,11 @@ body {
         flex: 1;
         padding: 10px;
         display: flex;
+        justify-content: center;
         
         img {
             width: 200px;
-            margin: auto;
+            margin: 40px;
             border-radius: 50%;
             background-color: #fff;
             padding: 20px;
@@ -240,6 +259,7 @@ body {
 }
 
 .containerturnos-footer {
+    
 
     .col-index1 {
         display: flex;
@@ -380,4 +400,5 @@ body {
     }
 
 
+}
 }

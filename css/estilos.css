@@ -103,137 +103,142 @@ body {
       width: 35px; }
 
 /* Seccion 2: turnos online */
-.header-turnos .navbar {
-  background: #1e6959; }
-
-.header-turnos .dropdown-menu {
-  background-color: #035e4a; }
-
-.header-turnos img {
-  width: 20px;
-  margin-right: 10px;
-  border-radius: 100px; }
-
-.container-turnos {
+.container-general-turnos {
   display: flex;
-  flex-direction: column;
-  text-align: center; }
-  .container-turnos .col-form {
+  flex-flow: column wrap;
+  /* Seccion 3: Tratamientos */ }
+  .container-general-turnos .header-turnos .navbar {
+    background: #1e6959; }
+  .container-general-turnos .header-turnos .dropdown-menu {
+    background-color: #035e4a; }
+  .container-general-turnos .header-turnos img {
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 100px; }
+  .container-general-turnos .container-turnos {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: #e2dddd; }
-  .container-turnos .form-turnos {
-    min-width: 400px;
-    flex: 1;
+    flex-direction: column;
     text-align: center;
-    padding: 20px; }
-    .container-turnos .form-turnos input {
-      width: 100%;
-      padding: 6px;
-      margin: 6px;
-      border: none;
-      border-bottom: 3px solid #035e4a;
-      background: transparent;
-      outline: none; }
-  .container-turnos .col-imgform {
-    flex: 1;
-    padding: 10px;
-    display: flex; }
-    .container-turnos .col-imgform img {
-      width: 200px;
-      margin: auto;
-      border-radius: 50%;
-      background-color: #fff;
-      padding: 20px; }
-
-.containerturnos-footer .col-index1 {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center; }
-
-.containerturnos-footer .col-index2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.containerturnos-footer .footer-index {
-  padding: 10px;
-  background-color: #035e4a;
-  height: 150px; }
-  .containerturnos-footer .footer-index span {
-    color: #859e9d; }
-  .containerturnos-footer .footer-index ul {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    color: #859e9d;
-    list-style-type: none; }
-  .containerturnos-footer .footer-index .ubicacion-footer {
-    transition-delay: 0.5s;
-    padding: 10px; }
-    .containerturnos-footer .footer-index .ubicacion-footer a {
-      text-decoration: none;
-      color: #859e9d;
-      transition-property: font-size;
-      transition-duration: 0.5s; }
-    .containerturnos-footer .footer-index .ubicacion-footer a:hover {
-      font-size: 18px; }
-  .containerturnos-footer .footer-index .whatsapp-footer {
-    padding: 10px; }
-  .containerturnos-footer .footer-index .ubicacion-footer img {
-    width: 30px;
-    border-radius: 100px; }
-  .containerturnos-footer .footer-index .ubicacion-footer img:hover {
-    font-size: 1.4em; }
-  .containerturnos-footer .footer-index .whatsapp-footer img {
-    width: 25px;
-    border-radius: 100px; }
-  .containerturnos-footer .footer-index .sociales li {
-    margin: 10px;
-    float: left; }
-  .containerturnos-footer .footer-index .sociales img {
-    transition-property: width;
-    transition-duration: 0.5s;
-    width: 30px;
-    border-radius: 100px; }
-  .containerturnos-footer .footer-index .sociales img:hover {
-    width: 35px; }
-
-/* Seccion 3: Tratamientos */
-.container-tratamientos {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: center;
-  text-align: center; }
-
-.navbar-brand img {
-  width: 30px;
-  margin-right: 20px; }
-
-.col-tratamientos {
-  border: 1px solid black;
-  width: 600px;
-  height: 500px;
-  margin: 50px; }
-
-.tratamientos-footer {
-  display: flex;
-  flex-direction: column;
-  align-content: center; }
-  .tratamientos-footer .sociales {
-    text-align: center; }
-    .tratamientos-footer .sociales img {
-      float: left;
+    width: 100%; }
+    .container-general-turnos .container-turnos .col-form {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: #667c6c;
+      margin: auto; }
+    .container-general-turnos .container-turnos .form-turnos {
+      border: 1px solid black;
+      min-width: 400px;
+      flex: 1;
+      text-align: center;
+      padding: 20px;
       margin: 20px; }
-  .tratamientos-footer img {
-    width: 30px; }
-  .tratamientos-footer ul {
-    list-style-type: none; }
-  .tratamientos-footer a {
-    text-decoration: none;
-    color: black; }
+      .container-general-turnos .container-turnos .form-turnos button {
+        width: 150px;
+        padding: 5;
+        margin: 10px 0;
+        border: none;
+        border-bottom: #035e4a;
+        background: transparent; }
+      .container-general-turnos .container-turnos .form-turnos input {
+        min-width: 200px;
+        padding: 6px;
+        margin: 6px;
+        border: none;
+        border-bottom: 3px solid #035e4a;
+        background: transparent;
+        outline: none; }
+    .container-general-turnos .container-turnos .col-imgform {
+      flex: 1;
+      padding: 10px;
+      display: flex;
+      justify-content: center; }
+      .container-general-turnos .container-turnos .col-imgform img {
+        width: 200px;
+        margin: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 20px; }
+  .container-general-turnos .containerturnos-footer .col-index1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; }
+  .container-general-turnos .containerturnos-footer .col-index2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .container-general-turnos .containerturnos-footer .footer-index {
+    padding: 10px;
+    background-color: #035e4a;
+    height: 150px; }
+    .container-general-turnos .containerturnos-footer .footer-index span {
+      color: #859e9d; }
+    .container-general-turnos .containerturnos-footer .footer-index ul {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      color: #859e9d;
+      list-style-type: none; }
+    .container-general-turnos .containerturnos-footer .footer-index .ubicacion-footer {
+      transition-delay: 0.5s;
+      padding: 10px; }
+      .container-general-turnos .containerturnos-footer .footer-index .ubicacion-footer a {
+        text-decoration: none;
+        color: #859e9d;
+        transition-property: font-size;
+        transition-duration: 0.5s; }
+      .container-general-turnos .containerturnos-footer .footer-index .ubicacion-footer a:hover {
+        font-size: 18px; }
+    .container-general-turnos .containerturnos-footer .footer-index .whatsapp-footer {
+      padding: 10px; }
+    .container-general-turnos .containerturnos-footer .footer-index .ubicacion-footer img {
+      width: 30px;
+      border-radius: 100px; }
+    .container-general-turnos .containerturnos-footer .footer-index .ubicacion-footer img:hover {
+      font-size: 1.4em; }
+    .container-general-turnos .containerturnos-footer .footer-index .whatsapp-footer img {
+      width: 25px;
+      border-radius: 100px; }
+    .container-general-turnos .containerturnos-footer .footer-index .sociales li {
+      margin: 10px;
+      float: left; }
+    .container-general-turnos .containerturnos-footer .footer-index .sociales img {
+      transition-property: width;
+      transition-duration: 0.5s;
+      width: 30px;
+      border-radius: 100px; }
+    .container-general-turnos .containerturnos-footer .footer-index .sociales img:hover {
+      width: 35px; }
+  .container-general-turnos .container-tratamientos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center; }
+  .container-general-turnos .navbar-brand img {
+    width: 30px;
+    margin-right: 20px; }
+  .container-general-turnos .col-tratamientos {
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    margin: 50px; }
+  .container-general-turnos .tratamientos-footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+    .container-general-turnos .tratamientos-footer .sociales {
+      text-align: center; }
+      .container-general-turnos .tratamientos-footer .sociales img {
+        float: left;
+        margin: 20px; }
+    .container-general-turnos .tratamientos-footer img {
+      width: 30px; }
+    .container-general-turnos .tratamientos-footer ul {
+      list-style-type: none; }
+    .container-general-turnos .tratamientos-footer a {
+      text-decoration: none;
+      color: black; }
