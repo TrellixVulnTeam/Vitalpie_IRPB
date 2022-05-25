@@ -18,9 +18,17 @@ body {
     background: #1e6959; }
   .container-index .img-nav {
     width: 30px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    border-radius: 100px; }
+  .container-index .dropdown-toggle img {
+    width: 20px;
+    margin: 5px; }
   .container-index .dropdown-menu {
     background-color: #035e4a; }
+    .container-index .dropdown-menu img {
+      width: 20px;
+      margin: 5px;
+      border-radius: 100px; }
   .container-index .img-main {
     width: 450px; }
     @media screen and (max-width: 576px) {
@@ -39,8 +47,7 @@ body {
     .container-index .aside-index ul li {
       padding-bottom: 20px; }
   .container-index .img-aside {
-    width: 100%;
-    padding: 25px 10px; }
+    width: 100%; }
   .container-index .col-index1 {
     display: flex;
     flex-flow: column wrap;
@@ -76,20 +83,22 @@ body {
     .container-index .footer-index .whatsapp-footer {
       padding: 10px; }
     .container-index .footer-index .ubicacion-footer img {
-      width: 30px;
+      width: 35px;
       transition-property: width;
       transition-duration: 0.5s; }
     .container-index .footer-index .ubicacion-footer img:hover {
       width: 35px; }
     .container-index .footer-index .whatsapp-footer img {
-      width: 30px; }
+      width: 25px;
+      border-radius: 100px; }
     .container-index .footer-index .sociales li {
       margin: 10px;
       float: left; }
     .container-index .footer-index .sociales img {
       transition-property: width;
       transition-duration: 0.5s;
-      width: 30px; }
+      width: 30px;
+      border-radius: 100px; }
     .container-index .footer-index .sociales img:hover {
       width: 35px; }
 

@@ -35,10 +35,24 @@ body {
     .img-nav {
         width: $spacing*3;
         margin-right: 20px;
+        border-radius: 100px;
+    }
+
+    .dropdown-toggle {
+        img {
+            width: 20px;
+            margin: 5px;
+        }
     }
 
     .dropdown-menu {
         background-color: rgb(3, 94, 74);
+
+        img {
+            width: 20px;
+            margin: 5px;
+            border-radius: 100px;
+        }
     }
 
     .img-main {
@@ -72,7 +86,6 @@ body {
 
     .img-aside {        
         width: 100%;
-        padding: 25px 10px;
     }
 
     .col-index1 {
@@ -127,7 +140,7 @@ body {
         }
 
         .ubicacion-footer img {
-            width: 30px;
+            width: 35px;
             transition-property: width;
             transition-duration: 0.5s;
         }
@@ -137,7 +150,8 @@ body {
         }
 
         .whatsapp-footer img {
-            width: 30px;
+            width: 25px;
+            border-radius: 100px;
         }
 
         .sociales {
@@ -150,6 +164,7 @@ body {
                 transition-property: width;
                 transition-duration: 0.5s;
                 width: 30px;
+                border-radius: 100px;
             }
 
             img:hover {
