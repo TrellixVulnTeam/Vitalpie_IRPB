@@ -118,7 +118,7 @@ body {
   .container-turnos .form-turnos input {
     color: #356355;
     margin: 5px;
-    width: 150px;
+    width: 100%;
     background: none;
     border: none;
     border-bottom: 1px solid #356355;
@@ -128,24 +128,13 @@ body {
   .container-turnos .form-turnos input:hover {
     background-color: #288368; }
 
-.container-turnos .container-form {
-  align-content: center;
-  width: 100%;
-  text-align: center; }
-  @media screen and (min-width: 320px) {
-    .container-turnos .container-form {
-      text-align: center;
-      max-width: 480px; } }
-
 .container-turnos .col-form {
-  align-self: center;
-  margin: 50px 0px; }
+  align-self: center; }
 
 .container-turnos .col-imgform {
-  text-align: center;
-  margin: 50px 0px; }
+  text-align: center; }
   .container-turnos .col-imgform img {
-    text-align: center; }
+    width: 350px; }
 
 .container-turnos .col-index1 {
   display: flex;
@@ -198,9 +187,6 @@ body {
     width: 30px; }
   .container-turnos .footer-index .sociales img:hover {
     width: 35px; }
-
-.imgform-turnos {
-  width: 350px; }
 
 /* Seccion 3: Tratamientos */
 .container-tratamientos {
