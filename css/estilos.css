@@ -115,52 +115,47 @@ body {
     width: 20px;
     margin-right: 10px;
     border-radius: 100px; }
-  .container-general-turnos .container-turnos {
+  .container-general-turnos .container-turnos .col-form {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #c2c2c2;
+    margin: auto;
+    min-width: 250px; }
+  .container-general-turnos .container-turnos .form-turnos {
+    min-width: 400px;
+    flex: 1;
     text-align: center;
-    width: 100%; }
-    .container-general-turnos .container-turnos .col-form {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      justify-content: center;
-      background: #c2c2c2;
-      margin: auto;
-      min-width: 250px; }
-    .container-general-turnos .container-turnos .form-turnos {
-      min-width: 400px;
-      flex: 1;
-      text-align: center;
-      padding: 20px;
-      margin: 20px; }
-      .container-general-turnos .container-turnos .form-turnos button {
-        width: 150px;
-        padding: 5;
-        margin: 10px 0;
-        border: none;
-        background: none;
-        border-bottom: 2px solid #035e4a;
-        color: #859e9d; }
-      .container-general-turnos .container-turnos .form-turnos input {
-        min-width: 200px;
-        padding: 6px;
-        margin: 6px;
-        border: none;
-        border-bottom: 2px solid #035e4a;
-        background: transparent;
-        outline: none;
-        color: #859e9d; }
-    .container-general-turnos .container-turnos .col-imgform {
-      flex: 1;
-      padding: 10px;
-      display: flex;
-      justify-content: center; }
-      .container-general-turnos .container-turnos .col-imgform img {
-        width: 200px;
-        margin: 40px;
-        border-radius: 100px;
-        background-color: #c2c2c2; }
+    padding: 20px;
+    margin: 20px; }
+    .container-general-turnos .container-turnos .form-turnos button {
+      width: 150px;
+      padding: 5;
+      margin: 10px 0;
+      border: none;
+      background: none;
+      border-bottom: 2px solid #035e4a;
+      color: #859e9d; }
+    .container-general-turnos .container-turnos .form-turnos input {
+      min-width: 200px;
+      padding: 6px;
+      margin: 6px;
+      border: none;
+      border-bottom: 2px solid #035e4a;
+      background: transparent;
+      outline: none;
+      color: #859e9d; }
+  .container-general-turnos .container-turnos .col-imgform {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center; }
+    .container-general-turnos .container-turnos .col-imgform img {
+      width: 200px;
+      margin: 40px;
+      border-radius: 100px;
+      background-color: #c2c2c2; }
   .container-general-turnos .containerturnos-footer .col-index1 {
     display: flex;
     flex-flow: column wrap;
