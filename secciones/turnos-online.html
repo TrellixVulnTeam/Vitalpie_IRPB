@@ -11,8 +11,8 @@
 </head>
 <body>
   <div class="flex-turnos">
-    <header class="flex-items header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-none">
+    <header class="flex-items header-turnos">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1e6959;">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html"><img class="img-nav" src="/images/icon/vitalpieico3.ico" alt="La imagen no esta disponible">
             Inicio</a>
@@ -35,9 +35,9 @@
                   Quienes Somos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="/secciones/quienes-somos.html">Quienes Somos</a></li>
-                  <li><a class="dropdown-item" href="#">Facebook</a></li>
-                  <li><a class="dropdown-item" href="#">Instagram</a></li>
+                  <li><a class="dropdown-item" href="/secciones/quienes-somos.html"><img src="/images/icon/user_friends.png" alt=""> Quienes Somos</a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100075946616907"><img src="/images/icon/facebook.ico" alt=""> Facebook</a></li>
+                  <li><a class="dropdown-item" href="https://instagram.com/consultorio_vitalpie?igshid=YmMyMTA2M2Y="><img src="/images/icon/instagram.png" alt=""> Instagram</a></li>
                 </ul>
               </li>
             </ul>
@@ -45,32 +45,61 @@
         </div>
       </nav>
     </header>
-    <main class="flex-items main">
-      <h1>Pedi tu turno</h1>
+    <h1>Pedi tu turno</h1>
+    <main class="flex-items main-turnos">
       <form class="form-turnos">
-        <div>
+        <div class="form-input">
           <input type="text" value="Nombre">
         </div>
-        <div>
+        <div class="form-input">
           <input type="text" value="Apellido">
         </div>
-        <div>
+        <div class="form-input">
           <input type="tel" value="Telefono">
         </div>
-        <div>
+        <div class="form-input">
           <input type="email" value="Email">
         </div>
-        <div>
+        <div class="form-input">
           <input type="datetime-local">
         </div>
+        <div class="form-submit">
+          <input type="submit">
+        </div>
       </form>
-      <button type="submit">Enviar</button>
       <img src="/images/icon/gmail-logo.png">
-    </main>
-   
-    
-    <footer class="flex-items footer">
-      footer
+    </main>    
+    <footer class="flex-items footer-turnos">
+      <div class="col-turnos1">
+        <ul>
+          <li class="ubicacion-footer">
+            <a href="https://goo.gl/maps/BNc7bBZ2mC1KCU9eA" target="_blank">
+              <img src="/images/foto.png/ic_location_on_128_28437.png">
+              Av.Cramer 3567, Buenos Aires - CABA
+            </a>
+          </li>
+          <li class="whatsapp-footer">
+            <img src="/images/icon/wasapverdechico.png">
+            1122504990
+          </li>
+        </ul>
+      </div>
+      <div class="col-turnos2">
+        <span>Seguinos en</span>
+        <ul class="sociales">
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100075946616907" target="_blank">
+              <img src="/images/icon/facebook.ico" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/consultorio_vitalpie?igshid=YmMyMTA2M2Y=" target="_blank">
+              <img src="/images/icon/instagram.png" alt="">
+            </a>
+          </li>
+        </ul>
+
+      </div>
     </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -10,7 +10,7 @@ body {
 /* Seccion 1: Pagina de inicio */
 .container-index {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center; }
   .container-index .navbar-toggler {
     border-radius: 5px; }
@@ -64,19 +64,19 @@ body {
     height: 150px;
     align-items: center; }
     .container-index .footer-index span {
-      color: #859e9d; }
+      color: #ffffff; }
     .container-index .footer-index ul {
       margin: 0;
       padding: 0;
       outline: none;
-      color: #859e9d;
+      color: #ffffff;
       list-style-type: none; }
     .container-index .footer-index .ubicacion-footer {
       padding: 10px; }
     .container-index .footer-index .ubicacion-footer a {
       transition-property: font-size;
       transition-duration: 0.5s;
-      color: #859e9d;
+      color: #ffffff;
       text-decoration: none; }
     .container-index .footer-index .ubicacion-footer a:hover {
       font-size: 18px; }
@@ -106,6 +106,106 @@ body {
 .flex-turnos {
   display: flex;
   flex-direction: column; }
+  @media screen and (max-width: 768px) {
+    .flex-turnos {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-items: center; }
+      .flex-turnos .form-turnos img {
+        width: 200px; } }
+  .flex-turnos .header-turnos img {
+    width: 30px;
+    border-radius: 100%; }
+  .flex-turnos .dropdown-menu {
+    background: #035e4a; }
+    .flex-turnos .dropdown-menu img {
+      width: 20px; }
+  .flex-turnos h1 {
+    text-align: center;
+    margin: 50px; }
+
+.main-turnos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: radial-gradient(#23836e, #2e635d);
+  margin: 20px 50px 80px 50px; }
+  .main-turnos .form-turnos {
+    min-width: 400px;
+    padding: 30px 0px;
+    margin: 80px 0px;
+    text-align: center; }
+  .main-turnos input {
+    min-width: 100px;
+    margin: 7px 0px;
+    border: none;
+    border-bottom: #c2c2c2 1px solid;
+    background: transparent;
+    color: #8d9e9c;
+    outline: none;
+    text-align: center; }
+  .main-turnos input:focus {
+    background: linear-gradient(to bottom, transparent, #2e635d); }
+  .main-turnos img {
+    margin: 80px 0px;
+    max-width: 250px;
+    width: 25%; }
+
+.footer-turnos {
+  padding: 10px;
+  background: #1e6959;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+  align-items: center; }
+  @media screen and (max-width: 576px) {
+    .footer-turnos {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 150px 150px; } }
+  .footer-turnos .col-turnos1 {
+    flex-grow: 1; }
+  .footer-turnos .col-turnos2 {
+    flex-grow: 1; }
+  .footer-turnos span {
+    color: #ffffff; }
+  .footer-turnos ul {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: #ffffff;
+    list-style-type: none; }
+  .footer-turnos .ubicacion-footer {
+    padding: 10px; }
+  .footer-turnos .ubicacion-footer a {
+    transition-property: font-size;
+    transition-duration: 0.5s;
+    color: #ffffff;
+    text-decoration: none; }
+  .footer-turnos .ubicacion-footer a:hover {
+    font-size: 18px; }
+  .footer-turnos .whatsapp-footer {
+    padding: 10px; }
+  .footer-turnos .ubicacion-footer img {
+    width: 35px;
+    transition-property: width;
+    transition-duration: 0.5s; }
+  .footer-turnos .ubicacion-footer img:hover {
+    width: 35px; }
+  .footer-turnos .whatsapp-footer img {
+    width: 25px;
+    border-radius: 100px; }
+  .footer-turnos .sociales li {
+    margin: 10px;
+    float: left; }
+  .footer-turnos .sociales img {
+    transition-property: width;
+    transition-duration: 0.5s;
+    width: 30px;
+    border-radius: 100px; }
+  .footer-turnos .sociales img:hover {
+    width: 35px; }
 
 /* Seccion 3: Tratamientos */
 .container-tratamientos {
