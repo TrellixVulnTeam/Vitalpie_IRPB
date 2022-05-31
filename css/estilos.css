@@ -115,47 +115,41 @@ body {
     width: 20px;
     margin-right: 10px;
     border-radius: 100px; }
-  .container-general-turnos .container-turnos .col-form {
+  .container-general-turnos .container-turnos {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: #c2c2c2;
-    margin: auto;
-    min-width: 250px; }
-  .container-general-turnos .container-turnos .form-turnos {
-    min-width: 400px;
-    flex: 1;
-    text-align: center;
-    padding: 20px;
-    margin: 20px; }
-    .container-general-turnos .container-turnos .form-turnos button {
-      width: 150px;
-      padding: 5;
-      margin: 10px 0;
-      border: none;
-      background: none;
-      border-bottom: 2px solid #035e4a;
-      color: #859e9d; }
-    .container-general-turnos .container-turnos .form-turnos input {
-      min-width: 200px;
-      padding: 6px;
-      margin: 6px;
-      border: none;
-      border-bottom: 2px solid #035e4a;
-      background: transparent;
-      outline: none;
-      color: #859e9d; }
-  .container-general-turnos .container-turnos .col-imgform {
-    flex: 1;
-    padding: 10px;
-    display: flex;
-    justify-content: center; }
-    .container-general-turnos .container-turnos .col-imgform img {
-      width: 200px;
-      margin: 40px;
-      border-radius: 100px;
-      background-color: #c2c2c2; }
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .container-general-turnos .container-turnos .col-form {
+      display: grid;
+      grid-template-columns: repeat(2, 450px);
+      grid-template-rows: 300px;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center; }
+    .container-general-turnos .container-turnos .form-turnos {
+      justify-self: center;
+      margin-left: 100px; }
+      .container-general-turnos .container-turnos .form-turnos button {
+        border: none;
+        background: none;
+        border-bottom: 2px solid #035e4a;
+        color: #859e9d; }
+      .container-general-turnos .container-turnos .form-turnos input {
+        padding: 7;
+        margin: 7px;
+        border: none;
+        border-bottom: 2px solid #035e4a;
+        background: transparent;
+        outline: none;
+        color: #859e9d; }
+    .container-general-turnos .container-turnos .imgform {
+      justify-self: center;
+      align-self: center; }
+      .container-general-turnos .container-turnos .imgform img {
+        width: 100%;
+        border-radius: 100px;
+        background-color: #c2c2c2; }
   .container-general-turnos .containerturnos-footer .col-index1 {
     display: flex;
     flex-flow: column wrap;
