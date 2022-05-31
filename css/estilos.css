@@ -156,6 +156,7 @@ body {
   background: #1e6959;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 130px;
   align-content: center;
   justify-items: center;
   align-items: center; }
