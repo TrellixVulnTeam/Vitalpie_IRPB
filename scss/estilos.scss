@@ -370,8 +370,10 @@ body {
     flex-direction: column;
     align-content: center;
 
-    @extend .footer-index; 
+    .sociales {
 
+        text-align: center;
 
-}
+        @extend .footer-index;
+    }
 }
