@@ -297,12 +297,11 @@ body {
     .flex-tratamientos .footer-tratamientos .sociales img:hover {
       width: 35px; }
 
-/* Seccion 3: Consultas */
+/* Seccion 4: Consultas */
 .flex-consultas {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }
-  .flex-consultas .header-consultas img {
+  flex-flow: column wrap; }
+  .flex-consultas .navbar-brand img {
     width: 30px;
     margin-right: 20px;
     border-radius: 100px; }
@@ -310,7 +309,24 @@ body {
     background: #035e4a; }
     .flex-consultas .dropdown-menu img {
       width: 20px; }
-  .flex-consultas .footer-consutlas {
+  .flex-consultas .grid-consultas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid #035e4a; }
+    .flex-consultas .grid-consultas .items-consultas {
+      padding: 30px; }
+    .flex-consultas .grid-consultas .form-consultas {
+      text-align: center; }
+      .flex-consultas .grid-consultas .form-consultas input {
+        margin: 5px;
+        width: 50%; }
+      .flex-consultas .grid-consultas .form-consultas textarea {
+        margin: 5px;
+        width: 50%; }
+  .flex-consultas .footer-consultas {
     padding: 10px;
     background: #1e6959;
     display: grid;
@@ -320,49 +336,49 @@ body {
     justify-items: center;
     align-items: center; }
     @media screen and (max-width: 576px) {
-      .flex-consultas .footer-consutlas {
+      .flex-consultas .footer-consultas {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 150px 150px; } }
-    .flex-consultas .footer-consutlas .col-tratamientos1 {
+    .flex-consultas .footer-consultas .col-tratamientos1 {
       flex-grow: 1; }
-    .flex-consultas .footer-consutlas .col-tratamientos2 {
+    .flex-consultas .footer-consultas .col-tratamientos2 {
       flex-grow: 1; }
-    .flex-consultas .footer-consutlas span {
+    .flex-consultas .footer-consultas span {
       color: #ffffff; }
-    .flex-consultas .footer-consutlas ul {
+    .flex-consultas .footer-consultas ul {
       margin: 0;
       padding: 0;
       outline: none;
       color: #ffffff;
       list-style-type: none; }
-    .flex-consultas .footer-consutlas .ubicacion-footer {
+    .flex-consultas .footer-consultas .ubicacion-footer {
       padding: 10px; }
-    .flex-consultas .footer-consutlas .ubicacion-footer a {
+    .flex-consultas .footer-consultas .ubicacion-footer a {
       transition-property: font-size;
       transition-duration: 0.5s;
       color: #ffffff;
       text-decoration: none; }
-    .flex-consultas .footer-consutlas .ubicacion-footer a:hover {
+    .flex-consultas .footer-consultas .ubicacion-footer a:hover {
       font-size: 18px; }
-    .flex-consultas .footer-consutlas .whatsapp-footer {
+    .flex-consultas .footer-consultas .whatsapp-footer {
       padding: 10px; }
-    .flex-consultas .footer-consutlas .ubicacion-footer img {
+    .flex-consultas .footer-consultas .ubicacion-footer img {
       width: 35px;
       transition-property: width;
       transition-duration: 0.5s; }
-    .flex-consultas .footer-consutlas .ubicacion-footer img:hover {
+    .flex-consultas .footer-consultas .ubicacion-footer img:hover {
       width: 35px; }
-    .flex-consultas .footer-consutlas .whatsapp-footer img {
+    .flex-consultas .footer-consultas .whatsapp-footer img {
       width: 25px;
       border-radius: 100px; }
-    .flex-consultas .footer-consutlas .sociales li {
+    .flex-consultas .footer-consultas .sociales li {
       margin: 10px;
       float: left; }
-    .flex-consultas .footer-consutlas .sociales img {
+    .flex-consultas .footer-consultas .sociales img {
       transition-property: width;
       transition-duration: 0.5s;
       width: 30px;
       border-radius: 100px; }
-    .flex-consultas .footer-consutlas .sociales img:hover {
+    .flex-consultas .footer-consultas .sociales img:hover {
       width: 35px; }

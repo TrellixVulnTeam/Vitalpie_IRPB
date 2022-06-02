@@ -485,14 +485,13 @@ body {
     }
 }
 
-/* Seccion 3: Consultas */ 
+/* Seccion 4: Consultas */ 
 
 .flex-consultas {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
 
-    .header-consultas {
+    .navbar-brand {
         img {
         width: $spacing*3;
         margin-right: 20px;
@@ -509,7 +508,36 @@ body {
         }
     }
 
-    .footer-consutlas {
+    .grid-consultas {
+        display: grid; 
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        border: 2px solid #035e4a;
+
+
+        .items-consultas {
+            padding: 30px;
+        }
+
+        .form-consultas {
+            text-align: center;
+
+            input {
+                margin: 5px;
+                width: 50%;
+            }
+
+            textarea {
+                margin: 5px;
+                width: 50%;
+            }
+        }
+    }
+    
+
+    .footer-consultas {
 
             padding: 10px;
             background: #1e6959;
@@ -598,6 +626,5 @@ body {
                     width: 35px;
                 }
             }    
-        
     }
 }
