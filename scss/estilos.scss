@@ -511,27 +511,42 @@ body {
     .grid-consultas {
         display: grid; 
         grid-template-columns: 1fr;
-        grid-template-rows: 60px 1fr 1fr;
-        align-items: center;
-        justify-items: center;
-        border: 2px solid #035e4a;
+        grid-template-rows: 1fr 1fr;        
+        border: 2px solid #000000;
+
+        @media screen and (min-width: 576px) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
 
 
         .items-consultas {
-            padding: 30px;
+            justify-self: center;
+            align-self: center;
         }
 
         .form-consultas {
+
+            margin: 20px;
             text-align: center;
 
             input {
                 margin: 5px;
                 width: 50%;
+                min-width: 200px;
+                border: none;
+                border-bottom: 2px solid #000000;
+                background: none;
             }
 
             textarea {
                 margin: 5px;
                 width: 50%;
+                min-width: 200px;
+                resize: none;
+                border: none;
+                border-bottom: 2px solid #000000;
+                background: none;
             }
         }
     }

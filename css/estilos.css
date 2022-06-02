@@ -312,20 +312,33 @@ body {
   .flex-consultas .grid-consultas {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    border: 2px solid #035e4a; }
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid #000000; }
+    @media screen and (min-width: 576px) {
+      .flex-consultas .grid-consultas {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr; } }
     .flex-consultas .grid-consultas .items-consultas {
-      padding: 30px; }
+      justify-self: center;
+      align-self: center; }
     .flex-consultas .grid-consultas .form-consultas {
+      margin: 20px;
       text-align: center; }
       .flex-consultas .grid-consultas .form-consultas input {
         margin: 5px;
-        width: 50%; }
+        width: 50%;
+        min-width: 200px;
+        border: none;
+        border-bottom: 2px solid #000000;
+        background: none; }
       .flex-consultas .grid-consultas .form-consultas textarea {
         margin: 5px;
-        width: 50%; }
+        width: 50%;
+        min-width: 200px;
+        resize: none;
+        border: none;
+        border-bottom: 2px solid #000000;
+        background: none; }
   .flex-consultas .footer-consultas {
     padding: 10px;
     background: #1e6959;
