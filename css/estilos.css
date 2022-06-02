@@ -7,7 +7,7 @@
 body {
   background-color: #1ba083; }
 
-/* Seccion 1: Pagina de inicio */
+/* SECCION 1: HOMBE */
 .container-index {
   display: flex;
   flex-flow: column nowrap;
@@ -102,7 +102,7 @@ body {
     .container-index .footer-index .sociales img:hover {
       width: 35px; }
 
-/* Seccion 2: turnos online */
+/* SECCION 2: TURNOS ONLINE */
 .flex-turnos {
   display: flex;
   flex-direction: column; }
@@ -209,7 +209,7 @@ body {
   .footer-turnos .sociales img:hover {
     width: 35px; }
 
-/* Seccion 3: Tratamientos */
+/* SECCION 3: TRATAMIENTOS */
 .flex-tratamientos {
   display: flex;
   flex-flow: column wrap; }
@@ -297,7 +297,7 @@ body {
     .flex-tratamientos .footer-tratamientos .sociales img:hover {
       width: 35px; }
 
-/* Seccion 4: Consultas */
+/* SECCION 4: CONSULTAS */
 .flex-consultas {
   display: flex;
   flex-flow: column wrap; }
@@ -394,4 +394,83 @@ body {
       width: 30px;
       border-radius: 100px; }
     .flex-consultas .footer-consultas .sociales img:hover {
+      width: 35px; }
+
+/* SECCION 5: QUIENES SOMOS */
+.flex-nosotros {
+  display: flex;
+  flex-flow: column wrap; }
+  .flex-nosotros .navbar-brand img {
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 100px; }
+  .flex-nosotros .dropdown-menu {
+    background: #035e4a; }
+    .flex-nosotros .dropdown-menu img {
+      width: 20px; }
+  .flex-nosotros .nosotros {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background: radial-gradient(#23836e, #2e635d);
+    color: #c2c2c2; }
+    @media screen and (min-width: 576px) {
+      .flex-nosotros .nosotros {
+        margin: 100px;
+        padding: 20px; } }
+  .flex-nosotros .footer-nosotros {
+    padding: 10px;
+    background: #1e6959;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px;
+    align-content: center;
+    justify-items: center;
+    align-items: center; }
+    @media screen and (max-width: 576px) {
+      .flex-nosotros .footer-nosotros {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px; } }
+    .flex-nosotros .footer-nosotros .col-nosotros1 {
+      flex-grow: 1; }
+    .flex-nosotros .footer-nosotros .col-nosotros2 {
+      flex-grow: 1; }
+    .flex-nosotros .footer-nosotros span {
+      color: #ffffff; }
+    .flex-nosotros .footer-nosotros ul {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      color: #ffffff;
+      list-style-type: none; }
+    .flex-nosotros .footer-nosotros .ubicacion-footer {
+      padding: 10px; }
+    .flex-nosotros .footer-nosotros .ubicacion-footer a {
+      transition-property: font-size;
+      transition-duration: 0.5s;
+      color: #ffffff;
+      text-decoration: none; }
+    .flex-nosotros .footer-nosotros .ubicacion-footer a:hover {
+      font-size: 18px; }
+    .flex-nosotros .footer-nosotros .whatsapp-footer {
+      padding: 10px; }
+    .flex-nosotros .footer-nosotros .ubicacion-footer img {
+      width: 35px;
+      transition-property: width;
+      transition-duration: 0.5s; }
+    .flex-nosotros .footer-nosotros .ubicacion-footer img:hover {
+      width: 35px; }
+    .flex-nosotros .footer-nosotros .whatsapp-footer img {
+      width: 25px;
+      border-radius: 100px; }
+    .flex-nosotros .footer-nosotros .sociales li {
+      margin: 10px;
+      float: left; }
+    .flex-nosotros .footer-nosotros .sociales img {
+      transition-property: width;
+      transition-duration: 0.5s;
+      width: 30px;
+      border-radius: 100px; }
+    .flex-nosotros .footer-nosotros .sociales img:hover {
       width: 35px; }
