@@ -296,3 +296,73 @@ body {
       border-radius: 100px; }
     .flex-tratamientos .footer-tratamientos .sociales img:hover {
       width: 35px; }
+
+/* Seccion 3: Consultas */
+.flex-consultas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .flex-consultas .header-consultas img {
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 100px; }
+  .flex-consultas .dropdown-menu {
+    background: #035e4a; }
+    .flex-consultas .dropdown-menu img {
+      width: 20px; }
+  .flex-consultas .footer-consutlas {
+    padding: 10px;
+    background: #1e6959;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px;
+    align-content: center;
+    justify-items: center;
+    align-items: center; }
+    @media screen and (max-width: 576px) {
+      .flex-consultas .footer-consutlas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px; } }
+    .flex-consultas .footer-consutlas .col-tratamientos1 {
+      flex-grow: 1; }
+    .flex-consultas .footer-consutlas .col-tratamientos2 {
+      flex-grow: 1; }
+    .flex-consultas .footer-consutlas span {
+      color: #ffffff; }
+    .flex-consultas .footer-consutlas ul {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      color: #ffffff;
+      list-style-type: none; }
+    .flex-consultas .footer-consutlas .ubicacion-footer {
+      padding: 10px; }
+    .flex-consultas .footer-consutlas .ubicacion-footer a {
+      transition-property: font-size;
+      transition-duration: 0.5s;
+      color: #ffffff;
+      text-decoration: none; }
+    .flex-consultas .footer-consutlas .ubicacion-footer a:hover {
+      font-size: 18px; }
+    .flex-consultas .footer-consutlas .whatsapp-footer {
+      padding: 10px; }
+    .flex-consultas .footer-consutlas .ubicacion-footer img {
+      width: 35px;
+      transition-property: width;
+      transition-duration: 0.5s; }
+    .flex-consultas .footer-consutlas .ubicacion-footer img:hover {
+      width: 35px; }
+    .flex-consultas .footer-consutlas .whatsapp-footer img {
+      width: 25px;
+      border-radius: 100px; }
+    .flex-consultas .footer-consutlas .sociales li {
+      margin: 10px;
+      float: left; }
+    .flex-consultas .footer-consutlas .sociales img {
+      transition-property: width;
+      transition-duration: 0.5s;
+      width: 30px;
+      border-radius: 100px; }
+    .flex-consultas .footer-consutlas .sociales img:hover {
+      width: 35px; }
