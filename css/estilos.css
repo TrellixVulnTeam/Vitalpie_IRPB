@@ -313,11 +313,17 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    border: 2px solid #000000; }
+    border: 2px solid #c9dad6;
+    background: radial-gradient(#23836e, #2e635d);
+    grid-gap: 30px; }
     @media screen and (min-width: 576px) {
       .flex-consultas .grid-consultas {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr; } }
+        grid-template-rows: 1fr;
+        height: 100vh;
+        margin: 100px; } }
+    .flex-consultas .grid-consultas .main-consultas {
+      justify-content: center; }
     .flex-consultas .grid-consultas .items-consultas {
       justify-self: center;
       align-self: center; }
@@ -329,16 +335,24 @@ body {
         width: 50%;
         min-width: 200px;
         border: none;
-        border-bottom: 2px solid #000000;
+        border-bottom: 2px solid #c9dad6;
         background: none; }
+      .flex-consultas .grid-consultas .form-consultas input:focus {
+        background-color: #c9dad6;
+        outline: none; }
       .flex-consultas .grid-consultas .form-consultas textarea {
         margin: 5px;
         width: 50%;
         min-width: 200px;
         resize: none;
         border: none;
-        border-bottom: 2px solid #000000;
+        border-bottom: 2px solid #c9dad6;
         background: none; }
+      .flex-consultas .grid-consultas .form-consultas textarea:focus {
+        background-color: #c9dad6;
+        outline: none; }
+    .flex-consultas .grid-consultas .img-consultas {
+      width: 100%; }
   .flex-consultas .footer-consultas {
     padding: 10px;
     background: #1e6959;
