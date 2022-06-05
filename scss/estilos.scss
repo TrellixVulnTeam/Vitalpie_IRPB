@@ -491,6 +491,11 @@ body {
     display: flex;
     flex-flow: column wrap;
 
+    h1 {
+        text-align: center;
+        margin-top : 50px;
+    }
+
     .navbar-brand {
         img {
         width: $spacing*3;
@@ -675,6 +680,12 @@ body {
     display: flex;
     flex-flow: column wrap;
 
+    h1 {
+        padding: 10px;
+        margin: 10px;
+        color: #caddda;
+    }
+
     .navbar-brand {
         img {
         width: $spacing*3;
@@ -692,15 +703,27 @@ body {
         }
     }
 
+    .main-nosotros {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+
+        @media screen and (min-width: 576px) {
+            height: 100vh;
+        }
+    }
+
     .nosotros {
         margin: 20px;
+        max-width: 550px;
         padding: 10px;
         border: 2px solid black;
         background: radial-gradient(#23836e, #2e635d);
         color: $color2;
 
         @media screen and (min-width: 576px) {
-            margin: 100px;
             padding: 20px;
         }
     }

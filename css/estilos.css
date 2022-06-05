@@ -301,6 +301,9 @@ body {
 .flex-consultas {
   display: flex;
   flex-flow: column wrap; }
+  .flex-consultas h1 {
+    text-align: center;
+    margin-top: 50px; }
   .flex-consultas .navbar-brand img {
     width: 30px;
     margin-right: 20px;
@@ -414,6 +417,10 @@ body {
 .flex-nosotros {
   display: flex;
   flex-flow: column wrap; }
+  .flex-nosotros h1 {
+    padding: 10px;
+    margin: 10px;
+    color: #caddda; }
   .flex-nosotros .navbar-brand img {
     width: 30px;
     margin-right: 20px;
@@ -422,15 +429,24 @@ body {
     background: #035e4a; }
     .flex-nosotros .dropdown-menu img {
       width: 20px; }
+  .flex-nosotros .main-nosotros {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; }
+    @media screen and (min-width: 576px) {
+      .flex-nosotros .main-nosotros {
+        height: 100vh; } }
   .flex-nosotros .nosotros {
     margin: 20px;
+    max-width: 550px;
     padding: 10px;
     border: 2px solid black;
     background: radial-gradient(#23836e, #2e635d);
     color: #c2c2c2; }
     @media screen and (min-width: 576px) {
       .flex-nosotros .nosotros {
-        margin: 100px;
         padding: 20px; } }
   .flex-nosotros .footer-nosotros {
     padding: 10px;
