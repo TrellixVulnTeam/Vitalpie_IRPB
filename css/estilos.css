@@ -330,6 +330,20 @@ body {
     .flex-consultas .grid-consultas .items-consultas {
       justify-self: center;
       align-self: center; }
+    .flex-consultas .grid-consultas .boton {
+      color: #c2c2c2;
+      width: 120px;
+      margin: 10px;
+      padding: 3px;
+      border: none;
+      border-bottom: 2px solid #c9dad6;
+      transition-property: all;
+      transition-duration: 0.5s;
+      background: none; }
+    .flex-consultas .grid-consultas .boton:hover {
+      background: #2e635d;
+      width: 140px;
+      height: 40px; }
     .flex-consultas .grid-consultas .form-consultas {
       margin: 20px;
       text-align: center; }
@@ -339,10 +353,11 @@ body {
         min-width: 200px;
         border: none;
         border-bottom: 2px solid #c9dad6;
-        background: none; }
-      .flex-consultas .grid-consultas .form-consultas input:focus {
-        background-color: #c9dad6;
+        background: none;
+        color: #c2c2c2;
         outline: none; }
+      .flex-consultas .grid-consultas .form-consultas input:focus {
+        background: #2e635d; }
       .flex-consultas .grid-consultas .form-consultas textarea {
         margin: 5px;
         width: 50%;
@@ -350,10 +365,11 @@ body {
         resize: none;
         border: none;
         border-bottom: 2px solid #c9dad6;
-        background: none; }
-      .flex-consultas .grid-consultas .form-consultas textarea:focus {
-        background-color: #c9dad6;
+        background: none;
+        color: #c2c2c2;
         outline: none; }
+      .flex-consultas .grid-consultas .form-consultas textarea:focus {
+        background: #2e635d; }
     .flex-consultas .grid-consultas .img-consultas {
       width: 100%; }
   .flex-consultas .footer-consultas {
