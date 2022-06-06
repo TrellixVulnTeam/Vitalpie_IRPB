@@ -721,6 +721,15 @@ body {
         }
     }
 
+    .img-qs {
+        justify-items: center;
+
+        img {
+            width: 100%;
+            max-height: 487px;
+        }
+    }
+
     .main-nosotros {
         display: flex;
         flex-flow: column;

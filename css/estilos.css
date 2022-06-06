@@ -445,6 +445,11 @@ body {
     background: #035e4a; }
     .flex-nosotros .dropdown-menu img {
       width: 20px; }
+  .flex-nosotros .img-qs {
+    justify-items: center; }
+    .flex-nosotros .img-qs img {
+      width: 100%;
+      max-height: 487px; }
   .flex-nosotros .main-nosotros {
     display: flex;
     flex-flow: column;
